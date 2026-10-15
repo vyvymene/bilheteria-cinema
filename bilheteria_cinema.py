@@ -1,7 +1,6 @@
 nome = input("Informe seu nome: ")
 idade = int(input("Informe a sua idade: "))
-print("Você tem documento: (Sim/Não): ")
-resposta = input() 
+resposta = input("Você tem documento: (Sim/Não): ") 
 
 if idade >= 18 and resposta == "sim":
    print(nome, "Entrada permitida! ")
